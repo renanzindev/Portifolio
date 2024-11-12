@@ -1,4 +1,4 @@
-*{
+*{  /*Esse é o reset CSS*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,20 +10,25 @@ body {
 header {
     background-color: #7c5e99;
 }
+nav{
+    background-color: black;
+    text-align: right;
+}
+
 a {
-    color: #fff;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500px;
-    text-decoration: none;
+    color: #fff; /*cor dos elementos*/
+    font-size: 20px; /*Tamanho das letras*/
+    font-family: Arial, Helvetica, sans-serif; /*Estilo das letras*/
+    font-weight: 500px; 
+    text-decoration: none; /*Tira o sublinhado da palavra*/
     margin-right: 30px;
 }
 #button {
-    display: inline-block;
-    background-color: #f25a70;
-    height: 60px;
+    display: inline-block;   /*Display inline-block faz com que os elementos fiquem na mesma linha */
+    background-color: #f25a70; /* cor que fica atras do elemento */
+    height: 60px; /*altura */
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: 5px 5px 2px black;
+    box-shadow: 5px 5px 2px black; /*Cria uma sombra sobre o botão*/
 }
